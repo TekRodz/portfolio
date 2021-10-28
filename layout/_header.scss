@@ -1,31 +1,16 @@
 header{
-    background-color: #212121;
-    color: white;
-    display: grid;
-    grid-template-columns: 25% 75%;
-}
-
-h2{
-    font-size: 45px;
-    text-align: center;
-    font-weight: bold;
-    font-family: "hero-new";
-}
-
-ul{
     display: flex;
-    list-style: none;
-    justify-content: space-evenly;
-    flex-direction: row;
+    background-image: url("img/background_home.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
     align-items: center;
-    
+    justify-content: center;
 
-    a{
+    h1{
+        font-size: 120px;
         color: white;
-        text-decoration: none;
-    }
-
-    .actual_page{
-        border-bottom: 3px solid #C30E0E;
+        font-family: "hero-new";
+        font-weight: bold;
     }
 }
