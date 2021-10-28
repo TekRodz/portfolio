@@ -1,0 +1,38 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  box-sizing: border-box;
+  font-family: "niveau-grotesk";
+}
+
+header {
+  background-color: #212121;
+  color: white;
+  display: grid;
+  grid-template-columns: 25% 75%;
+}
+
+h2 {
+  font-size: 45px;
+  text-align: center;
+  font-weight: bold;
+  font-family: "hero-new";
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+}
+ul a {
+  color: white;
+  text-decoration: none;
+}
+ul .actual_page {
+  border-bottom: 3px solid #C30E0E;
+}
+
+/*# sourceMappingURL=style.css.map */
