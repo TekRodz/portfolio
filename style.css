@@ -151,27 +151,41 @@ footer div img {
   color: white;
 }
 
-.img_project {
+.img_project_portrait {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-gap: 1vw;
   justify-content: center;
+  padding-bottom: 4vh;
 }
-.img_project img {
+.img_project_portrait img {
   margin: auto;
   width: 15vw;
 }
-.img_project .img_1, .img_project .img_4 {
+.img_project_portrait .img_1, .img_project_portrait .img_4 {
   width: 20vw;
 }
-.img_project .img_1 {
+.img_project_portrait .img_1 {
   grid-column: 1/3;
   grid-row: 1/1;
 }
-.img_project .img_4 {
+.img_project_portrait .img_4 {
   grid-column: 3/5;
   grid-row: 1/1;
+}
+
+.img_project_landscape {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 1vh;
+  justify-content: center;
+  padding-bottom: 4vh;
+}
+.img_project_landscape img {
+  margin: auto;
+  width: 40vw;
 }
 
 nav {
