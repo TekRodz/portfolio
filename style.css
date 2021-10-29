@@ -22,32 +22,32 @@ header h1 {
   font-weight: bold;
 }
 
-.home_section article {
+.home_section article, .project_page article {
   height: 100vh;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
-.home_section article img {
+.home_section article img, .project_page article img {
   height: 75%;
   align-items: center;
   margin: 10vh;
 }
-.home_section article div {
+.home_section article div, .project_page article div {
   text-align: center;
 }
-.home_section article hr {
+.home_section article hr, .project_page article hr {
   margin-top: 15vh;
   width: 45%;
   height: 2vh;
 }
-.home_section article p {
+.home_section article p, .project_page article p {
   margin: 8vh auto;
   text-align: justify;
   width: 50%;
   font-size: 3vh;
 }
-.home_section article button {
+.home_section article button, .project_page article button {
   padding: 1vh 3vh;
   font-size: 4vh;
   background-color: #611618;
@@ -56,32 +56,31 @@ header h1 {
   font-weight: bold;
   border: none;
 }
-.home_section .presentation img {
+.home_section .presentation img, .project_page .presentation img {
   margin-left: 25vh;
 }
-.home_section .presentation hr {
+.home_section .presentation hr, .project_page .presentation hr {
   margin-left: 8vh;
 }
-.home_section .skills img {
+.home_section .skills img, .project_page .skills img {
   margin-right: 25vh;
 }
-.home_section .skills hr {
+.home_section .skills hr, .project_page .skills hr {
   margin-left: 15vh;
 }
-.home_section h2 {
-  margin: 0 auto;
+.home_section h2, .project_page h2 {
   padding: 2vh 6vw;
   border-top: 4px solid #C30E0E;
   border-bottom: 4px solid #C30E0E;
   font-family: "hero-new";
 }
-.home_section .project img {
+.home_section .project img, .project_page .project img {
   margin: 0;
   margin-top: 10vh;
   height: auto;
   width: 20vw;
 }
-.home_section .project p {
+.home_section .project p, .project_page .project p {
   position: relative;
   top: -25vh;
   width: inherit;
@@ -89,7 +88,7 @@ header h1 {
   text-align: center;
   width: 25vw;
 }
-.home_section .project p a {
+.home_section .project p a, .project_page .project p a {
   color: white;
   font-size: 4vh;
   font-family: "hero-new";
@@ -145,6 +144,34 @@ footer div img {
 
 .subtitle {
   margin-top: 4vh;
+}
+
+.project_page {
+  background-color: #474747;
+  color: white;
+}
+
+.img_project {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 1vw;
+  justify-content: center;
+}
+.img_project img {
+  margin: auto;
+  width: 15vw;
+}
+.img_project .img_1, .img_project .img_4 {
+  width: 20vw;
+}
+.img_project .img_1 {
+  grid-column: 1/3;
+  grid-row: 1/1;
+}
+.img_project .img_4 {
+  grid-column: 3/5;
+  grid-row: 1/1;
 }
 
 nav {
