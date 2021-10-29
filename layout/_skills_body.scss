@@ -1,0 +1,36 @@
+.skills{
+
+    article{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    hr{
+        height: 1vh;
+        width: 75%;
+        margin-top: 4vh;
+    }
+
+    h3{
+        margin-top: 4vh;
+        font-size: 4vh;
+    }
+
+    p{
+        margin-top: 4vh;
+        width: 65%;
+        text-align: justify;
+        margin-bottom: 4vh;
+    }
+
+    ul{
+        list-style: disc;
+        display: block;
+        margin-bottom: 4vh;
+    }
+}
+
+.subtitle{
+    margin-top: 4vh;
+}

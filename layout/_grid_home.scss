@@ -1,7 +1,4 @@
 .home_section{
-    height: 300vh;
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
 
     article{
         height: 100vh;
@@ -21,8 +18,6 @@
 
         hr{
             margin-top: 15vh;
-            background-color: #C30E0E;
-            border: none;
             width: 45%;
             height: 2vh;
         }
@@ -31,12 +26,12 @@
             margin: 8vh auto;
             text-align: justify;
             width: 50%;
-            font-size: 24px;
+            font-size: 3vh;
         }
 
         button{
             padding: 1vh 3vh;
-            font-size: 32px;
+            font-size: 4vh;
             background-color: #611618;
             color: white;
             font-family: "hero-new";
@@ -90,7 +85,7 @@
         
             a{
                 color: white;
-                font-size: 45px;
+                font-size: 4vh;
                 font-family: "hero-new";
                 text-decoration: none;
             }

@@ -1,7 +1,7 @@
 *, *::before, *::after {
   margin: 0;
   padding: 0;
-  font-size: 20px;
+  font-size: 3vh;
   box-sizing: border-box;
   font-family: "niveau-grotesk";
 }
@@ -16,17 +16,12 @@ header {
   justify-content: center;
 }
 header h1 {
-  font-size: 120px;
+  font-size: 13vh;
   color: white;
   font-family: "hero-new";
   font-weight: bold;
 }
 
-.home_section {
-  height: 300vh;
-  display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
-}
 .home_section article {
   height: 100vh;
   display: flex;
@@ -43,8 +38,6 @@ header h1 {
 }
 .home_section article hr {
   margin-top: 15vh;
-  background-color: #C30E0E;
-  border: none;
   width: 45%;
   height: 2vh;
 }
@@ -52,11 +45,11 @@ header h1 {
   margin: 8vh auto;
   text-align: justify;
   width: 50%;
-  font-size: 24px;
+  font-size: 3vh;
 }
 .home_section article button {
   padding: 1vh 3vh;
-  font-size: 32px;
+  font-size: 4vh;
   background-color: #611618;
   color: white;
   font-family: "hero-new";
@@ -98,7 +91,7 @@ header h1 {
 }
 .home_section .project p a {
   color: white;
-  font-size: 45px;
+  font-size: 4vh;
   font-family: "hero-new";
   text-decoration: none;
 }
@@ -121,7 +114,37 @@ footer div {
   justify-content: space-evenly;
 }
 footer div img {
-  width: 5vw;
+  width: 4vw;
+}
+
+.skills article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.skills hr {
+  height: 1vh;
+  width: 75%;
+  margin-top: 4vh;
+}
+.skills h3 {
+  margin-top: 4vh;
+  font-size: 4vh;
+}
+.skills p {
+  margin-top: 4vh;
+  width: 65%;
+  text-align: justify;
+  margin-bottom: 4vh;
+}
+.skills ul {
+  list-style: disc;
+  display: block;
+  margin-bottom: 4vh;
+}
+
+.subtitle {
+  margin-top: 4vh;
 }
 
 nav {
@@ -135,7 +158,7 @@ nav {
 }
 
 h2 {
-  font-size: 45px;
+  font-size: 5vh;
   text-align: center;
   font-weight: bold;
   font-family: "hero-new";
@@ -153,7 +176,12 @@ ul a {
   text-decoration: none;
 }
 ul .actual_page {
-  border-bottom: 3px solid #C30E0E;
+  border-bottom: 4px solid #C30E0E;
+}
+
+hr {
+  background-color: #C30E0E;
+  border: none;
 }
 
 /*# sourceMappingURL=style.css.map */
