@@ -97,16 +97,23 @@ header h1 {
 
 footer {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   background-color: #212121;
   padding: 2vh 0;
 }
-footer p {
+footer p, footer a {
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 24px;
   color: white;
+}
+footer a {
+  text-decoration: none;
+}
+footer a:hover {
+  color: #C30E0E;
+  transition: all 0.5s;
 }
 footer div {
   display: flex;
