@@ -45,3 +45,22 @@
         width: 40vw;
     }
 }
+
+
+@include for_size(mobile){
+    .project_page{
+        img{
+            margin: 4vh auto;
+            width: 60vw;
+        }
+    }
+    .img_project_portrait, .img_project_landscape{
+        display: flex;
+        flex-direction: column;
+
+        img, .img_1, .img_4{
+            margin: 4vh auto;
+            width: 60vw;
+        }
+    }
+}

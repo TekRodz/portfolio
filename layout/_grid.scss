@@ -90,4 +90,22 @@
             }
         }
     }
+
+    @include for_size(repsonsive_grid){
+        article{
+            height: auto;
+            flex-direction: column;
+            align-items: center;
+
+            img{
+                width: 50vw;
+            }
+        }
+        .presentation img{
+            margin: 10vh auto;
+        }
+        .skills img{
+            margin: 10vh auto;
+        }
+    }
 }

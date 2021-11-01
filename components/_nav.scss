@@ -32,3 +32,12 @@ ul{
         border-bottom: 4px solid #C30E0E;
     }
 }
+
+@include for_size(laptop){
+    h2{
+        font-size: 5vw;
+    }
+    ul a{
+        font-size: 3vw;
+    }
+}

@@ -20,6 +20,7 @@ header h1 {
   color: white;
   font-family: "hero-new";
   font-weight: bold;
+  text-align: center;
 }
 
 .home_section article, .project_page article {
@@ -94,6 +95,22 @@ header h1 {
   font-family: "hero-new";
   text-decoration: none;
 }
+@media (max-width: 1528px) {
+  .home_section article, .project_page article {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+  .home_section article img, .project_page article img {
+    width: 50vw;
+  }
+  .home_section .presentation img, .project_page .presentation img {
+    margin: 10vh auto;
+  }
+  .home_section .skills img, .project_page .skills img {
+    margin: 10vh auto;
+  }
+}
 
 footer {
   display: grid;
@@ -105,7 +122,7 @@ footer p, footer a {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 24px;
+  font-size: 3vh;
   color: white;
 }
 footer a {
@@ -123,6 +140,16 @@ footer div img {
   width: 4vw;
 }
 
+@media (max-width: 1000px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+  footer div img {
+    margin: 2vh;
+    width: 4vh;
+  }
+}
 .skills article {
   display: flex;
   flex-direction: column;
@@ -195,6 +222,21 @@ footer div img {
   width: 40vw;
 }
 
+@media (max-width: 425px) {
+  .project_page img {
+    margin: 4vh auto;
+    width: 60vw;
+  }
+
+  .img_project_portrait, .img_project_landscape {
+    display: flex;
+    flex-direction: column;
+  }
+  .img_project_portrait img, .img_project_portrait .img_1, .img_project_portrait .img_4, .img_project_landscape img, .img_project_landscape .img_1, .img_project_landscape .img_4 {
+    margin: 4vh auto;
+    width: 60vw;
+  }
+}
 nav {
   position: sticky;
   position: -webkit-sticky;
@@ -227,6 +269,15 @@ ul .actual_page {
   border-bottom: 4px solid #C30E0E;
 }
 
+@media (max-width: 1000px) {
+  h2 {
+    font-size: 5vw;
+  }
+
+  ul a {
+    font-size: 3vw;
+  }
+}
 hr {
   background-color: #C30E0E;
   border: none;

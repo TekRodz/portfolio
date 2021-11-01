@@ -1,0 +1,9 @@
+@mixin for_size($size) {
+    @if $size == repsonsive_grid{
+        @media (max-width: 1528px){ @content }
+    } @else if $size == laptop{
+        @media (max-width: 1000px){ @content }
+    } @else if $size == mobile{
+        @media (max-width: 425px){ @content }
+    }
+}
