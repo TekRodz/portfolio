@@ -106,6 +106,18 @@
         }
         .skills img{
             margin: 10vh auto;
+        }        
+    }
+
+    @include for_size(mobile){
+        .project{
+            img{
+                width: 80vw;
+            }
+            p{
+                width: 90vw;
+        
         }
     }
+}
 }

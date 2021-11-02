@@ -111,13 +111,8 @@ header h1 {
     margin: 10vh auto;
   }
 }
-@media (max-width: 425px) {
-  .home_section .project img, .project_page .project img {
-    width: 80vw;
-  }
-  .home_section .project p, .project_page .project p {
-    width: 90vw;
-  }
+.home_section .project img, .project_page .project img {
+  width: 80vw;
 }
 
 footer {
@@ -291,4 +286,4 @@ hr {
   border: none;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.cs.map */
