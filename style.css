@@ -59,6 +59,7 @@ header h1 {
   font-family: "hero-new";
   font-weight: bold;
   border: none;
+  cursor: pointer;
 }
 .home_section .presentation img, .project_page .presentation img {
   margin-left: 25vh;
@@ -192,11 +193,6 @@ footer div img {
 
 .subtitle {
   margin-top: 4vh;
-}
-
-.project_page {
-  background-color: #474747;
-  color: white;
 }
 
 .img_project_portrait {
