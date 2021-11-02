@@ -110,14 +110,19 @@
     }
 
     @include for_size(mobile){
+        article{
+            p{
+                width: 75%;
+            }
+        }
+        
         .project{
             img{
                 width: 80vw;
             }
             p{
                 width: 90vw;
-        
+            }
         }
     }
-}
 }

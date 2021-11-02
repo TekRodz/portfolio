@@ -112,6 +112,9 @@ header h1 {
   }
 }
 @media (max-width: 425px) {
+  .home_section article p, .project_page article p {
+    width: 75%;
+  }
   .home_section .project img, .project_page .project img {
     width: 80vw;
   }
