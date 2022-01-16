@@ -15,3 +15,11 @@ header{
         text-align: center;
     }
 }
+
+@include for_size(mobile){
+    header{
+        h1{
+            font-size: 13vw;
+        }
+    }
+}
