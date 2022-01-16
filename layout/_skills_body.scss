@@ -1,4 +1,7 @@
 .skills{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 
     article{
         display: flex;
@@ -33,4 +36,6 @@
 
 .subtitle{
     margin-top: 4vh;
+    font-size: 5vh;
+    text-align: center;
 }

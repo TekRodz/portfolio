@@ -170,6 +170,10 @@ footer div img {
     width: 4vh;
   }
 }
+.skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 .skills article {
   display: flex;
   flex-direction: column;
@@ -198,6 +202,8 @@ footer div img {
 
 .subtitle {
   margin-top: 4vh;
+  font-size: 5vh;
+  text-align: center;
 }
 
 .img_project_portrait {
