@@ -60,11 +60,14 @@ header h1 {
   padding: 1vh 3vh;
   font-size: 4vh;
   background-color: #611618;
-  color: white;
   font-family: "hero-new";
-  font-weight: bold;
   border: none;
   cursor: pointer;
+}
+.home_section article button a, .home_section .project_div button a, .project_page article button a, .project_page .project_div button a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
 }
 .home_section .presentation img, .project_page .presentation img {
   margin-left: 25vh;
