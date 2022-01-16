@@ -39,3 +39,10 @@
     font-size: 5vh;
     text-align: center;
 }
+
+@include for_size(mobile){
+    .skills{
+        display: flex;
+        flex-direction: column;
+    }
+}

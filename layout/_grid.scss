@@ -2,7 +2,7 @@
     
     background-color: #f4f5f8;
 
-    article{
+    article, .project_div{
         height: 100vh;
         display: flex;
         flex-direction: row;
@@ -73,7 +73,7 @@
         img{
             margin: 0;
             margin-top: 10vh;
-            height: auto;
+            height: 70%;
             width: 20vw;
         }
 
@@ -109,7 +109,24 @@
         }
         .skills img{
             margin: 10vh auto;
-        }        
+        }   
+
+    }
+    
+    @include for_size(tablet){
+        .project_div{
+            height: auto;
+            flex-direction: column;
+            align-items: center;
+
+            img{
+                width: 50vw;
+            }
+
+            p{
+                width: 100%;
+            }
+        }
     }
 
     @include for_size(mobile){

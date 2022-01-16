@@ -31,32 +31,32 @@ header h1 {
 .home_section, .project_page {
   background-color: #f4f5f8;
 }
-.home_section article, .project_page article {
+.home_section article, .home_section .project_div, .project_page article, .project_page .project_div {
   height: 100vh;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
-.home_section article img, .project_page article img {
+.home_section article img, .home_section .project_div img, .project_page article img, .project_page .project_div img {
   height: 75%;
   align-items: center;
   margin: 10vh;
 }
-.home_section article div, .project_page article div {
+.home_section article div, .home_section .project_div div, .project_page article div, .project_page .project_div div {
   text-align: center;
 }
-.home_section article hr, .project_page article hr {
+.home_section article hr, .home_section .project_div hr, .project_page article hr, .project_page .project_div hr {
   margin-top: 15vh;
   width: 45%;
   height: 2vh;
 }
-.home_section article p, .project_page article p {
+.home_section article p, .home_section .project_div p, .project_page article p, .project_page .project_div p {
   margin: 8vh auto;
   text-align: justify;
   width: 50%;
   font-size: 3vh;
 }
-.home_section article button, .project_page article button {
+.home_section article button, .home_section .project_div button, .project_page article button, .project_page .project_div button {
   padding: 1vh 3vh;
   font-size: 4vh;
   background-color: #611618;
@@ -87,7 +87,7 @@ header h1 {
 .home_section .project img, .project_page .project img {
   margin: 0;
   margin-top: 10vh;
-  height: auto;
+  height: 70%;
   width: 20vw;
 }
 .home_section .project p, .project_page .project p {
@@ -118,6 +118,19 @@ header h1 {
   }
   .home_section .skills img, .project_page .skills img {
     margin: 10vh auto;
+  }
+}
+@media (max-width: 1024px) {
+  .home_section .project_div, .project_page .project_div {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+  .home_section .project_div img, .project_page .project_div img {
+    width: 50vw;
+  }
+  .home_section .project_div p, .project_page .project_div p {
+    width: 100%;
   }
 }
 @media (max-width: 425px) {
@@ -206,6 +219,12 @@ footer div img {
   text-align: center;
 }
 
+@media (max-width: 425px) {
+  .skills {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .img_project_portrait {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -300,7 +319,7 @@ ul .actual_page {
     font-size: 3vw;
   }
 }
-@media (max-width: 425px) {
+@media (max-width: 1024px) {
   .burger {
     z-index: 20;
     margin: 1em;
